@@ -10,6 +10,7 @@ func shortenString(message string) func() string {
 		messageSlice := strings.Split(message, " ")
 		fmt.Println(messageSlice)
 		wordLength := len(messageSlice)
+		fmt.Println(wordLength)
 		if wordLength < 1 {
 			return "Nothing left"
 		} else {
